@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.orange {
+    color: #ffa620
+}
+
+.dark {
+    color: #474747
+}
+
+.light {
+    background-color: #fff8f2;
+    color: #fff8f2;
+}
+
+.light-orange {
+    color: #ffd79a;
+}
+
+.title {
+    font-family: 'Abril Fatface';
+}
+
+.text {
+    font-family: 'Cabin', sans-serif;
+}
+
+.row {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #474747;
+}
+
+
+/* home */
+#home {
+    margin-top: 68px;
+    position: relative;
+}
+.navbar__container {
+    max-width: 400px;
+    margin: auto;
+    padding: 4px 16px;
+    position: static;
+}
+
+.navbar__container--links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 4px;
+}
+
+.home__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+}
+
+.home__title--intro {
+    font-size: 114px;
+}
+
+.home__para {
+    font-size: 24px;
+}
+
+/* about */
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.about__me {
+    margin-right: 90px;
+}
+
+.about__me--title {
+    font-size: 56px;
+    margin-bottom: 8px;
+}
+
+.about__me--pic {
+    height: 350px;
+}
+
+.about__cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px; 
+}
+
+.about__me--text {
+    font-size: 36px;
+    text-decoration: none;
+    background-color: #ffa620;
+    padding: 8px 53px; 
+}
+
+.about__me--text-en {
+    font-size: 36px;
+    text-decoration: none;
+    background-color: #ffa620;
+    padding: 8px 86px; 
+}
+
+.about__me--links {
+    list-style: none;
+    display: flex;
+    font-size: 36px;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 36px;
+    margin-left: 28px;
+    text-decoration: none;
+}
+
+.about__me--links li a i {
+    color: #ffd79a;
+}
+
+.about__me--links li a:hover i {
+    color: #ffa620;
+}
+
+.about__text {
+    width: 1300px;
+    margin-right: 48px;
+    text-align: start;
+}
+
+.about__text--title {
+    font-size: 68px;
+}
+
+.about__text--para {
+    font-size: 28px;
+}
+
+.tech__stack--list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.tech__stack--container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tech__stack--img {
+    margin: 32px 24px;
+    text-align: center;    
+    transition: all 300ms;
+}
+
+.tech__stack--container:hover .tech__stack--img:hover {
+    filter: brightness(75%);
+    opacity: 0.85;
+    transform: scale(0.9);
+}
+
+.tech__stack--img img {
+    width: 55px;
+    height: 50px;
+    opacity: 0.9;
+}
+
+.tech__stack--para {
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    font-size: 14px;
+    opacity: 0; 
+}   
+
+.tech__stack--container:hover .tech__stack--para {
+    transform: scale(1);
+    opacity: 1;
+} 
+
+.html--text {
+    color: #ee600e;
+}
+
+.css--text {
+    color: rgb(22, 75, 234);
+}
+
+.js--text {
+    color: rgb(239, 197, 12);
+}
+
+.react--text {
+    color: rgb(17, 218, 244);
+}
+.fire--text {
+    color: rgb(244, 131, 17);
+}
+.git--text {
+    color: rgb(57, 57, 57);
+}
+.material--text {
+    color: rgb(14, 79, 164);
+}
+.api--text {
+    color: rgb(57, 57, 57);
+}
