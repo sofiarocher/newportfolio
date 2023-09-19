@@ -20,7 +20,7 @@
             <ul class="navbar__container--links title">
                 <li class="navbar__container--link"><a href="#about">About Me</a></li>
                 <li class="navbar__container--link"><a href="#proyecto">Projects</a></li>
-                <li class="navbar__container--link">
+                <li class="navbar__container--link" onclick="toggleContrast()">
                     <i class="fa-solid fa-moon"></i>
                 </li>
                 <li class="navbar__container--link text"><a href="index.html">ES</a></li>
@@ -95,6 +95,101 @@
             </div>    
         </div>
     </section>
+    <section id="projects">
+        <div class="project__container row container">
+            <h3 class="project__title title light-orange">
+                Mis <span class="orange">proyectos.</span>
+            </h3>
+            <ul class="project__list">
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="assets/ecommerce-web.png" class="project__img" alt="">
+                        <div class="project__wrapper--bg"></div>
+                        <div class="project__description">
+                            <h3 class="project__description--title title">
+                                E-Commerce Cake Shop
+                            </h3>
+                            <h4 class="project__description--sub-title text">
+                                Html, CSS, Javascript, React
+                            </h4>
+                            <p class="project__description--para text">
+                                This is a e-commerce cake shop. I worked with a fake API for the cakes, and it has a dynamic slide with Javascript. 
+                                Deploy on Firebase.
+                                It's responsive.
+                                It's not done yet, I am working on the shop cart page.
+                            </p>
+                            <div class="project__description--links">
+                                <a href="https://github.com/sofiarocher/ecommerce-bakery" class="project__description--link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://ecommerce-cakeshop.web.app/" class="project__description--link">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="assets/poke-web.png" class="project__img" alt="">
+                        <div class="project__wrapper--bg"></div>
+                        <div class="project__description">
+                            <h3 class="project__description--title title">
+                                Task Manager
+                            </h3>
+                            <h4 class="project__description--sub-title text">
+                                Html, Material UI, Javascript, React
+                            </h4>
+                            <p class="project__description--para text">
+                                This is a pokemon task manager. The pokemons are loaded thanks to an API.
+                                You can create a task and delete it. 
+                                Deploy on Firebase.
+                                It's only for PC.
+                            </p>
+                            <div class="project__description--links">
+                                <a href="https://github.com/sofiarocher/my-pokemon" class="project__description--link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://poketask-b6745.web.app/" class="project__description--link">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="assets/tesla-page.png" class="project__img" alt="">
+                        <div class="project__wrapper--bg"></div>
+                        <div class="project__description">
+                            <h3 class="project__description--title title">
+                                Tesla Clone
+                            </h3>
+                            <h4 class="project__description--sub-title text">
+                                 Html, CSS, Javascript, React
+                            </h4>
+                            <p class="project__description--para text">
+                                This is a clone from Tesla, it has authentication with firebase, you can create an account, sign in, log in and log out! It is responsive and it was made with HTML, CSS, JS and React. 
+                            </p>
+                            <div class="project__description--links">
+                                <a href="https://github.com/sofiarocher/teslaclone" class="project__description--link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://teslaclone-sofiarocher.netlify.app/" class="project__description--link" target="_blank">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer__desc">
+        <h4 class="footer__copy orange text">
+            2023 &copy; Sofía Rocher.
+        </h4>
+    </footer>
     
 </body>
 </html>
