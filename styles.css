@@ -348,7 +348,8 @@ textarea {
 
 .modal--open .navbar__container,
 .modal--open .scroll, 
-.modal--open .home__title {
+.modal--open .home__title, 
+.modal--open #about{
     opacity: 0;
     visibility: hidden;
     transition: all 400ms;
@@ -479,7 +480,7 @@ textarea {
 
 .tech__stack--list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -656,12 +657,8 @@ textarea {
 /* responsive */
 
 @media (max-width:768px) {
-    body {
-        margin: 0 auto;
-    }
-    .navbar__container--links {
+    .navbar__container--links a{
         font-size: 16px;
-        padding: 4px;
     }
     .home__title {
         height: 40vh;
@@ -732,5 +729,123 @@ textarea {
     }
     .project__description--para {
         font-size: 16px;
+    }
+}
+@media (max-width: 458px) {
+    .mail__btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        right: 80px;
+    }
+    body {
+        max-width: 300px;
+    }
+   .navbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .navbar__container--links li{
+    padding-left: 16px;
+   }
+    .navbar__container--links a  {
+        font-size: 12px;
+    }
+    .navbar__container--links i {
+        font-size: 12px;
+    }
+    nav li:hover {
+        transform: none;
+    }
+    .home__title{
+        padding-left: 20px;
+    }
+    .home__title--intro {
+        font-size: 24px;
+    }
+    .home__para {
+        font-size: 12px;
+    }
+    .scroll {
+        display: none;
+    }
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 100px;
+        height: 120vh;
+    }
+    .about__me--title {
+        font-size: 20px;
+    }
+    .about__me--pic {
+        width: 150px;
+        height: 170px;
+    }
+    .about__me--text {
+        font-size: 16px;
+        padding: 6px 29px;
+    }
+    .about__me--links{
+        font-size: 16px;
+    }
+    .about__text {
+        min-width: 300px;
+        max-width: 300px;
+        text-align: center;
+        padding-right: 90px;
+    }
+    .about__text--title {
+        font-size: 20px;
+    }
+    .about__text--para {
+        font-size: 12px;
+    }
+    .tech__stack--img img {
+        width: 40px;
+        height: 36px;
+    }
+    .tech__stack--para {
+      font-size: 10px;
+    }
+    #projects {
+        margin-left:12px;
+    }
+    .project__title {
+        font-size: 24px;
+    }
+    .project__mobile {
+        display: block;
+        font-size: 10px;
+        padding: 12px;
+    }
+    .project__img{
+        width: 250px;
+    }
+    .project__description {
+        left: 30px;
+    }
+    .project__description--title {
+        font-size: 14px;
+    }
+    .project__description--sub-title{
+        font-size: 8px;
+        padding-bottom: 4px;
+    }
+    .project__description--para {
+        display: none;
+    }
+    .project__description--links i {
+        font-size: 12px;
+    }
+
+    .footer__desc {
+        padding-bottom: 50px;
+    }
+    .footer__copy{
+        font-size: 12px;
     }
 }
