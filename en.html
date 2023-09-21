@@ -15,7 +15,6 @@
     <title>Sofia Rocher</title>
 </head>
 <body class="light">
-    <section id="home" >
         <nav class="navbar__container dark">
             <ul class="navbar__container--links title">
                 <li class="navbar__container--link"><a href="#about">About Me</a></li>
@@ -26,11 +25,56 @@
                 <li class="navbar__container--link text"><a href="index.html">ES</a></li>
             </ul>
         </nav>
+    <header id="landing-page" onmousemove="moveBackground(event)">
+        <a href="#">
+            <button class="mail__btn click" onclick="toggleModal()">
+                <i class="fas fa-envelope"></i>
+            </button>
+        </a>
         <div class="home__title orange">
             <h4 class="title home__title--intro">Hi. I'm Sofía Rocher.<br> A frontend developer. </h4>
             <p class="home__para text">I'm  passionate about crafting experiences that are engaging, accessible and user-centric. </p>
         </div>
-    </section>
+        <a href="#projects" class="scroll">
+            <div class="scroll__icon click"> </div>
+        </a>
+        <div class="modal">
+            <div class="modal__half modal__contact">
+                <h3 class="modal__title modal__title--contact title">
+                    <span class="orange">Contact me!</span> 
+                </h3>
+                <h4 class="modal__sub-title modal__sub-title--contact text">
+                    I'm available for new opportunities.
+                </h4>
+                <form id="contact__form" onsubmit="contact(event)">
+                    <div class="form__item">
+                        <label class="form__item--label text">Name</label>
+                        <input type="text" name="user_name" class="input" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label text">Email</label>
+                        <input type="email" name="user_email" class="input" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label text">Message</label>
+                        <textarea type="text" name="message" class="input" required></textarea>
+                    </div>
+                    <button id="contact__submit" class="form__submit text">
+                        Send it my way!
+                    </button>
+                </form>
+                <div class="modal__overlay modal__overlay--loading">
+                    <i class="fas fa-spinner"></i>
+                </div>
+                <div class="modal__overlay modal__overlay--success">
+                    Thank you for the message!
+                    <br> 
+                    I'll be in touch soon.
+                </div>
+                <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
+            </div>
+        </div>
+    </header>
     <section id="about" class="row">
         <div class="about__me">
             <h4 class="about__me--title orange title">I'm Sof.</h4>
@@ -99,6 +143,8 @@
         <div class="project__container row container">
             <h3 class="project__title title light-orange">
                 Mis <span class="orange">proyectos.</span>
+                <span class="project__mobile text orange">Hold on touch devices to view information.</span>
+
             </h3>
             <ul class="project__list">
                 <li class="project">

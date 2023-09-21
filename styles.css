@@ -51,6 +51,11 @@ li {
     list-style-type: none;
 }
 
+nav li:hover {
+    transform: scale(1.5);
+    transition: all 500ms ease-in-out;
+}
+
 .container {
     padding: 50px 0;
     width: 100%;
@@ -149,9 +154,6 @@ textarea {
 
 /* header */
 
-#landing-page {
-    min-height: 100vh;
-}
 
 .mail__btn {
     height: 70px;
@@ -355,9 +357,7 @@ textarea {
 
 /* home */
 
-#home {
-    position: relative;
-}
+
 .navbar__container {
     max-width: 400px;
     margin: auto;
@@ -649,3 +649,88 @@ textarea {
     margin-top: 36px;
 } 
 
+.project__mobile {
+    display: none;
+}
+
+/* responsive */
+
+@media (max-width:768px) {
+    body {
+        margin: 0 auto;
+    }
+    .navbar__container--links {
+        font-size: 16px;
+        padding: 4px;
+    }
+    .home__title {
+        height: 40vh;
+    }
+    .home__title--intro {
+        font-size: 50px;
+    }
+    .home__para {
+        font-size: 14px;
+    }
+    .scroll {
+        display: none;
+    }
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 70px;
+        height: 100vh;
+
+    }
+    .about__me--title {
+        font-size: 32px;
+    }
+    .about__me--pic {
+        width: 200px;
+        height: 230px;
+    }
+    .about__me--text {
+        font-size: 28px;
+        padding: 4px 20px;
+    }
+    .about__me--links{
+        font-size: 24px;
+        padding: 24px;
+    }
+    .about__text {
+        min-width: 400px;
+        max-width: 650px;
+        text-align: center;
+    }
+    .about__text--title {
+        font-size: 42px;
+    }
+    .about__text--para {
+        font-size: 22px;
+    }
+    .tech__stack--container{
+        max-width: 90px;
+    }
+    #projects {
+        margin: 0 auto;
+    }
+    .project__title {
+        font-size: 36px;
+    }
+    .project__mobile {
+        display: block;
+        font-size: 16px;
+        padding: 12px;
+    }
+    .project__description {
+        max-width: 400px;
+    }
+    .project__description--title {
+        font-size: 28px;
+    }
+    .project__description--para {
+        font-size: 16px;
+    }
+}
