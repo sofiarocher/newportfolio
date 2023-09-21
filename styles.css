@@ -736,10 +736,11 @@ textarea {
         width: 40px;
         height: 40px;
         font-size: 20px;
-        right: 80px;
+        right: 30px;
     }
     body {
-        max-width: 300px;
+       
+        padding-left: 10px;
     }
    .navbar__container {
     display: flex;
@@ -844,8 +845,10 @@ textarea {
 
     .footer__desc {
         padding-bottom: 50px;
+        
     }
     .footer__copy{
         font-size: 12px;
+        padding-left: 15px;
     }
 }
