@@ -745,7 +745,7 @@ textarea {
         width: 40px;
         height: 40px;
         font-size: 20px;
-        right: 30px;
+        right: 45px;
     }
     .modal {
         height: 600px;
@@ -770,7 +770,8 @@ textarea {
     font-size: 12px;
    }
     body {
-        padding-left: 10px;
+        padding-left: 50px;
+        width: 300px;
     }
    .navbar__container {
     display: flex;
@@ -802,7 +803,7 @@ textarea {
         display: none;
     }
     #landing-page {
-        height: 40vh;
+        height: 50vh;
     }
     #about {
         display: flex;
@@ -810,7 +811,7 @@ textarea {
         align-items: center;
         justify-content: center;
         padding-left: 100px;
-        height: 90vh;
+        height: 110vh;
     }
     .about__me--title {
         font-size: 20px;
@@ -881,10 +882,8 @@ textarea {
     .project__description--links i {
         font-size: 12px;
     }
-
     .footer__desc {
-        padding-bottom: 50px;
-        
+        padding-bottom: 24px;
     }
     .footer__copy{
         font-size: 12px;
