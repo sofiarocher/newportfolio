@@ -770,8 +770,8 @@ textarea {
     font-size: 12px;
    }
     body {
-        padding-left: 50px;
-        width: 320px;
+        margin-left: 50px;
+        width: 350px;
     }
    .navbar__container {
     display: flex;
