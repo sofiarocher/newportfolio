@@ -707,8 +707,14 @@ textarea {
     .about__text--para {
         font-size: 22px;
     }
-    .tech__stack--container{
-        max-width: 90px;
+    .tech__stack--container {
+        padding-top: 20px;
+    }
+    .tech__stack--img{
+      margin: 16px 12px;
+    }
+    .tech__stack--para {
+        font-size: 10px;
     }
     #projects {
         margin: 0 auto;
@@ -730,6 +736,9 @@ textarea {
     .project__description--para {
         font-size: 16px;
     }
+    .footer__copy {
+        padding: 24px;
+    }
 }
 @media (max-width: 458px) {
     .mail__btn {
@@ -738,8 +747,29 @@ textarea {
         font-size: 20px;
         right: 30px;
     }
+    .modal {
+        height: 600px;
+        width: 300px;
+    }
+    .modal--open .modal {
+        box-shadow: 0 10px 40px 0 rgb(0, 0, 0, 0.3);
+    }
+    .modal__title {
+        font-size: 24px;
+    }
+    .modal__sub-title {
+        font-size: 12px;
+    }
+    .modal__exit{
+        font-size: 24px;
+    }
+   .form__submit {
+    font-size: 16px;
+   }  
+   .form__item--label {
+    font-size: 12px;
+   }
     body {
-       
         padding-left: 10px;
     }
    .navbar__container {
@@ -771,13 +801,16 @@ textarea {
     .scroll {
         display: none;
     }
+    #landing-page {
+        height: 40vh;
+    }
     #about {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding-left: 100px;
-        height: 120vh;
+        height: 90vh;
     }
     .about__me--title {
         font-size: 20px;
@@ -814,6 +847,8 @@ textarea {
     }
     #projects {
         margin-left:12px;
+        padding: 0;
+        padding-top: 12px;
     }
     .project__title {
         font-size: 24px;
@@ -822,6 +857,10 @@ textarea {
         display: block;
         font-size: 10px;
         padding: 12px;
+        width: 250px;
+    }
+    .project__list{
+        margin-top: -58px;
     }
     .project__img{
         width: 250px;
@@ -849,6 +888,6 @@ textarea {
     }
     .footer__copy{
         font-size: 12px;
-        padding-left: 15px;
+        margin-left: 24px;
     }
 }
