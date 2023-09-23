@@ -770,7 +770,7 @@ textarea {
     font-size: 12px;
    }
     body {
-        margin-left: 40px;
+        margin-left: 30px;
         width: 350px;
     }
    .navbar__container {
@@ -798,6 +798,7 @@ textarea {
     }
     .home__para {
         font-size: 12px;
+        width: 300px;
     }
     .scroll {
         display: none;
