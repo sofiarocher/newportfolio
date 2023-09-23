@@ -780,6 +780,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 40px;
    }
    .navbar__container--links li{
     padding-left: 16px;
@@ -807,7 +808,11 @@ textarea {
         display: none;
     }
     #landing-page {
-        height: 50vh;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 24px;
     }
     #about {
         display: flex;
@@ -815,6 +820,7 @@ textarea {
         align-items: center;
         justify-content: center;
         height: 110vh;
+        padding-right: 28px;
     }
     .about__me--title {
         font-size: 20px;
@@ -825,7 +831,9 @@ textarea {
     }
     .about__me--text {
         font-size: 16px;
-        padding: 6px 29px;
+        background-color: #ffa620;
+        width: 150px;
+        height: 33px;
     }
     .about__me--links{
         font-size: 16px;
