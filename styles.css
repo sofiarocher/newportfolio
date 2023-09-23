@@ -815,7 +815,7 @@ textarea {
         align-items: center;
         justify-content: center;
         width: 350px;
-        margin-right: 2rem;
+        padding-right: 30px;
     }
     .about__me {
         padding-left: 45px;
