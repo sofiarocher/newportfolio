@@ -780,7 +780,6 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 40px;
    }
    .navbar__container--links li{
     padding-left: 16px;
@@ -812,7 +811,7 @@ textarea {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 24px;
+
     }
     #about {
         display: flex;
@@ -859,7 +858,7 @@ textarea {
     }
     #projects {
         padding-top: 12px;
-        left: 8px;
+
     }
     .project__title {
         font-size: 24px;
