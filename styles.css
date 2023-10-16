@@ -692,6 +692,10 @@ textarea {
         font-size: 28px;
         padding: 4px 20px;
     }
+    .about__me--text-en {
+        font-size: 28px;
+        padding: 4px 46px;
+    }
     .about__me--links{
         font-size: 24px;
         padding: 24px;
@@ -832,6 +836,13 @@ textarea {
         background-color: #ffa620;
         width: 150px;
         height: 33px;
+    }
+    .about__me--text-en {
+        font-size: 16px;
+        background-color: #ffa620;
+        width: 150px;
+        height: 33px;
+        padding: 4px 24px;
     }
     .about__me--links{
         font-size: 16px;
